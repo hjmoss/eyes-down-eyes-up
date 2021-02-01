@@ -12,7 +12,7 @@ const server = http.createServer(app);
 
 const io = socketIo(server, {
     cors: {
-        origin: ["http://eyesdowneyesup.com", "http://192.168.1.42:3000", "127.0.0.1:3000"]
+        origin: ["https://eyesdowneyesup.com", "http://192.168.1.42:3000", "127.0.0.1:3000"]
     }
 });
 
