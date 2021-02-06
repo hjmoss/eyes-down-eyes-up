@@ -3,6 +3,7 @@ const http = require("http");
 const socketIo = require("socket.io");
 
 const port = process.env.PORT || 4001;
+console.log(process.env);
 const index = require("./routes/index");
 
 const app = express();
